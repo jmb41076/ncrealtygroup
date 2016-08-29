@@ -1,4 +1,7 @@
-$bgColor: #A4B4C4;
+//$bgColor: #A4B4C4;
+$bgColor: #daedf2;
+$ncRealtyBlue: #253355;
+
 
 * {
     font-family: "Helvetica Neue";
@@ -14,7 +17,7 @@ body {
     /*border-radius:50px;*/
     border-width: 5px;
     border-style: solid;
-    border-color: #0E2479;
+    border-color: $ncRealtyBlue;
     margin-top: 20px;
     margin-bottom: 20px;
     height: 100%;
@@ -22,14 +25,6 @@ body {
     width: 940px;
     margin-right: auto;
     margin-left: auto;
-    background-image: linear-gradient(top, rgb(164, 180, 196) 15%, rgb(228, 235, 243) 69%);
-    background-image: -o-linear-gradient(top, rgb(164, 180, 196) 15%, rgb(228, 235, 243) 69%);
-    background-image: -moz-linear-gradient(top, rgb(164, 180, 196) 15%, rgb(228, 235, 243) 69%);
-    background-image: -webkit-linear-gradient(top, rgb(164, 180, 196) 15%, rgb(228, 235, 243) 69%);
-    background-image: -ms-linear-gradient(top, rgb(164, 180, 196) 15%, rgb(228, 235, 243) 69%);
-    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.15, rgb(164, 180, 196)), color-stop(0.69, rgb(228, 235, 243)));
-//    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#A9B1CB, endColorstr=#E4EBF3);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A9B1CB, endColorstr=#E4EBF3)";
 }
 
 .logoheader {
@@ -40,16 +35,9 @@ body {
     width: 896px;
     border-style: solid;
     border-width: 2px;
-    border-color: #253355;
+    border-color: $ncRealtyBlue;
+    background-color: $ncRealtyBlue;
     padding: 10px;
-    background-image: linear-gradient(left, #A9B1CB 0%, #0E2479 100%);
-    background-image: -o-linear-gradient(left, #A9B1CB 0%, #0E2479 100%);
-    background-image: -moz-linear-gradient(left, #A9B1CB 0%, #0E2479 100%);
-    background-image: -webkit-linear-gradient(left, #A9B1CB 0%, #0E2479 100%);
-    background-image: -ms-linear-gradient(left, #A9B1CB 0%, #0E2479 100%);
-    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #A9B1CB), color-stop(1, #0E2479));
-//    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#A9B1CB, endColorstr=#0E2479);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A9B1CB, endColorstr=#0E2479)";
 }
 
 .logospan {
@@ -61,7 +49,7 @@ body {
     color: #FFFFFF;
     font-style: italic;
     margin-left: 20px;
-    text-shadow: 2px 2px #0E2479;
+    text-shadow: 2px 2px $ncRealtyBlue;
 }
 
 .savingtext_header {
@@ -70,7 +58,7 @@ body {
     color: #FFFFFF;
     font-style: bold;
     /*margin-left:100px;*/
-    text-shadow: 2px 2px #0E2479;
+    text-shadow: 2px 2px $ncRealtyBlue;
     max-width: 400px;
     height: 100%;
     text-align: center;
@@ -90,7 +78,7 @@ body {
     width: 896px;
     border-style: solid;
     border-width: 2px;
-    border-color: #253355;
+    border-color: $ncRealtyBlue;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -112,8 +100,8 @@ body {
     width: 296px;
     border-style: solid;
     border-width: 2px;
-    border-color: #253355;
-    background-color: #0E2479;
+    border-color: $ncRealtyBlue;
+    background-color: $ncRealtyBlue;
     /*padding:10px;*/
 }
 
@@ -165,7 +153,7 @@ body {
 .happyhomebuyers {
     border-style: solid;
     border-width: 2px;
-    border-color: #253355;
+    border-color: $ncRealtyBlue;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -180,7 +168,7 @@ body {
     height: 248px;
     border-style: solid;
     border-width: 2px;
-    border-color: #253355;
+    border-color: $ncRealtyBlue;
     margin-left: 10px;
     margin-bottom: 10px;
     float: left;
@@ -200,9 +188,9 @@ body {
     width: 906px;
     border-style: solid;
     border-width: 2px;
-    border-color: #253355;
+    border-color: $ncRealtyBlue;
     padding: 5px;
-    background-color: #0E2479;
+    background-color: $ncRealtyBlue;
     color: #ffffff;
     text-shadow: 1px 1px #1D1803;
     text-align: center;
