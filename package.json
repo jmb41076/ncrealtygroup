@@ -1,0 +1,27 @@
+{
+  "name": "ncrealtygroup",
+  "version": "0.0.0",
+  "description": "NC Realty Group Main Site",
+  "main": "index.js",
+  "scripts": {
+    "start":"gulp serve",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmb41076/ncrealtygroup.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "browser-sync": "^2.13",
+    "gulp": "^3.9",
+    "gulp-autoprefixer": "^3.1",
+    "gulp-concat": "^2.6",
+    "gulp-if": "^2.0",
+    "gulp-imagemin": "^3.0",
+    "gulp-sass": "^2.3",
+    "gulp-sourcemaps": "^1.6",
+    "gulp-uglify": "^1.5"
+  }
+}
